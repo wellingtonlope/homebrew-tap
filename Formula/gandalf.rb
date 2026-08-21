@@ -2,19 +2,19 @@ class Gandalf < Formula
   desc "Cryptographically secure password generator — speak, friend, and enter"
   homepage "https://github.com/wellingtonlope/gandalf"
   license "MIT"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.0/gandalf-darwin-arm64.tar.gz"
-      sha256 "d5c6e1a8cde7e26eac55b2280bf9d77caa13ebb2721937791eb7199621741d90"
+      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.1/gandalf-darwin-arm64.tar.gz"
+      sha256 "effdd3c523fabedfd0a43e24cb050f32188fedb38867379bae82dac1cf4ab85c"
       def install
         bin.install "gandalf-darwin-arm64" => "gandalf"
       end
     end
     on_intel do
-      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.0/gandalf-darwin-amd64.tar.gz"
-      sha256 "bd12d03e641b00902b5f86b15ec9e3e4c71640ca005934b20770132bf1187fb6"
+      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.1/gandalf-darwin-amd64.tar.gz"
+      sha256 "1df172809a525e376732eb57b29f07ae6bab093341aa6c19eb6b2d222759a064"
       def install
         bin.install "gandalf-darwin-amd64" => "gandalf"
       end
@@ -23,15 +23,15 @@ class Gandalf < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.0/gandalf-linux-arm64.tar.gz"
-      sha256 "4e97087b26a921a8e7c663f08a70af980e1d60e93fd024c594fc74371d17e475"
+      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.1/gandalf-linux-arm64.tar.gz"
+      sha256 "9b866185eb97ed6498645859c7faf3173d624f99d0ab2c889a5bcf6c3c79b446"
       def install
         bin.install "gandalf-linux-arm64" => "gandalf"
       end
     end
     on_intel do
-      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.0/gandalf-linux-amd64.tar.gz"
-      sha256 "d6b8e7679789c23a174e48afc1ae5639c5df7396ff062464f41a094a112d69ad"
+      url "https://github.com/wellingtonlope/gandalf/releases/download/v0.3.1/gandalf-linux-amd64.tar.gz"
+      sha256 "09accbc55f6af8bfbddd00b8539f1ec0eb60d46a7aa5acc6960a1fc4e7547cf8"
       def install
         bin.install "gandalf-linux-amd64" => "gandalf"
       end
